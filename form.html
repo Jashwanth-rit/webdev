@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "form.css">
+</head>
+<body>
+    <div id = "cantainer" class = "cantainer">
+        <div id = "header" class = "head">
+            <img src = "https://media.istockphoto.com/id/1366851749/vector/scholarship-banner.jpg?s=612x612&w=0&k=20&c=qFKJiZGmD97vYxqi0qiTolbHV3fDgjYuhNtTbj7cndM=" alt =  "this is img">
+        </div>
+        <nav id = "nav" class = "nav">
+            <div class = "nav1">home</div>
+            <div class = "nav1">accounts</div>
+            <div class = "nav1">contact</div>
+            <div class = "nav1">help</div>
+            <div class = "nav1">other optins</div>
+        </nav>
+        <div id = "info" class ="term"><div id="termhead">terms and documents requiredto known</div>
+       <hr>
+            <div id="term">terms
+                <ul>
+                    <li>*(astericks)- required to fill that info</li>
+                    <li>marks should be more than minimum marks(passed)</li>
+                    <li>student shold belongs to low caste</li>
+                    <li>income should be less than 1lakh</li>
+                    <li>parents should not belongs to any gvt jobs</li>
+                    <li>student should have citizenship of india</li>
+                </ul>
+
+                
+
+            </div>
+            <div id="documents">documents
+                <ul>
+                    <li>aadhar card</li>
+                    <li>ration card</li>
+                    <li>sslc marks card</li>
+                    <li>pu marks card</li>
+                    <li>transfer certificate</li>
+                    <li>income and caste cirtificate</li>
+                    <li>fees paid copy</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <form action="">
+            <div id = "start">
+               <div id="head"> application form</div>
+<div id="name" class = "form">*name:<input type = "name" placeholder="enter your name" name="name" required>
+    <div id="pass" class = "form">
+        *passward:<input type = "password" placeholder="passward" passward="passward" required>
+    </div>
+    <div id="num">*number:<input type = "number" name = "number" id = "num">
+</div>
+<div id="gender" class = "form">
+    <label for="id1">
+        gender:<input type = "radio" id =  "male" name = "male" value ="male">male 
+    
+    <input type ="radio" id = "female" name = "female" value="female">female
+    </label>
+</div>
+<div id="dob" class = "form">enter your date of birth
+    <input type="date">
+   
+</div>
+<div id="email" class = "form">*email:<input type = "email" name  = "email" required>
+            </div>
+            <div id="state" class = "form">
+                <select name="state" id="state" class = "form">
+                    <option value="select">-select-</option>
+                    
+                    <option value="karnataka">karnataka</option>
+                    <option value="telangana">telangana</option>
+                    <option value="hyderabad">hyderabad</option>
+                    <option value="tamil nadu">tamil nadu</option>
+                    <option value="kerala">kerala</option>
+                </select>
+            </div>
+            <div id="district" class = "form">
+                <select name="district" id="dis">
+                    <option value="select">-select-</option>
+                    <option value="hassan">hassan</option>
+                    <option value="mandya">mandya</option>
+                    <option value="mysore">mysore</option>
+                    <option value="banglore">banglore</option>
+                    <option value="manglore">manglore</option>
+                </select>
+            </div>
+            <div id="doc" class = "form">
+                
+                <div id="ad" class = "form">upload your documents in pdf 
+                    <br>
+                    <br>
+                    <input type="file" placeholder="upload your aadhar" required>
+                    <br>
+                    <input type="file" placeholder="upload your ration card" required>
+                    <br>
+                    <input type="file" placeholder="upload your sslc marks card" required>
+                    <br>
+                    <input type="file" placeholder="upload your pu marks card" required>
+                    <br>
+                    <input type="file" placeholder="upload your transafer certificate" required>
+                    <br>
+                    <input type="file" placeholder="upload your income caste certificate" required>
+                    <br>
+                    <input type="file" placeholder="upload your fees paid copy" required>
+                    <br>
+
+            </div>
+            <textarea name="feedback" id="" cols="30" rows="10" placeholder="feedback" class = "form" name = "feedback">
+            
+            </textarea>
+            <div id="subre">
+            <div id="reset" class = "form"><input type="reset" name = "reset"></div>
+            <div id="sub" class = "form"><input type= "submit" name = "submit"></div>
+           </div>
+        </form>
+    </div>
+
+  <script src  = "form.js"></script>  
+</body>
+</html>

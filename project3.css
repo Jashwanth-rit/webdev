@@ -1,0 +1,106 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+body{
+    background-color: deeppink;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#mainctn{
+    height:700px ;
+    width: 90%;
+   
+   
+   margin: 30px;
+   
+    background-color: white;
+
+}
+
+#process{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 70%;
+    
+}
+header{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#from,#to{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    padding-top: 200px;
+
+
+}
+i{
+
+    padding-top: 250px;
+   padding-right: 100px;
+   padding-left: 100px;
+   padding-bottom: 100px;
+  
+}
+img{
+    height: 100px;
+    width: 80px;
+}
+.dropdown{
+    width: 100px;
+}
+#foot{
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.d1{
+    
+    height: auto;
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+}
+button{
+    background-color: black;
+    color: white;
+    
+}
+#in{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 150px;
+        
+}
+#money{
+   text-transform: capitalize;
+   font-size: 40px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input{
+    font-size:30px ;
+    border: none;
+    border-radius: none;
+}

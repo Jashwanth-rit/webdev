@@ -1,0 +1,84 @@
+body{
+   background-color: rgb(218, 221, 222);
+   display: inline;
+   margin: 0%;
+   padding: 0%;
+}
+img{
+    width: 100%;
+    height: 400px;
+}
+#nav{
+    display: flex;
+   justify-content: space-evenly;
+   
+   position: sticky;
+   top: 0%;
+   background-color: black;
+   color: azure;
+   margin-top: 0%;
+   text-transform: capitalize;
+
+
+}
+.nav1:hover{
+    
+    color: red;
+}
+#info{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(184, 192, 240);
+    border: 2px solid black;
+    border-radius: 2%;
+    margin-top: 20px;
+    margin-left: 170px;
+    
+    
+}
+#termhead{
+    text-align: center;
+    font-size: larger;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+#term,#documents,li{
+    text-transform: capitalize;
+}
+#head{
+    text-transform: capitalize;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+input{
+    display: block;
+    width: 20%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left: 20px;
+   align-content: center;
+}
+input:hover{
+background-color: bisque;
+}
+#gender{
+    display: inline;
+}
+#male,#female{
+    display: inline;
+    width: 50px;
+}
+.form{
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+form{
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 2px solid black;
+    background-color: white;
+   
+}

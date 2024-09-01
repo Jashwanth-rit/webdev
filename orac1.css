@@ -1,0 +1,123 @@
+   
+#container1{
+    display: flex;
+    align-items: end;
+
+}
+#box1,#box2,#box3{
+    width: 33%;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 2px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: azure;
+}
+#b1,#b2,#b3,#b4{
+    width: 25%;
+    height: 20px;
+    background-color: blueviolet;
+    margin: 2px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: azure;
+
+}
+#ab1,#ab2,#ab3,#ab4,#ab5{
+    width: 20%;
+    height: 20px;
+    background-color: blueviolet;
+    margin: 2px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: azure;
+
+}
+#container2{
+    display: flex;
+}
+#container3{
+    display: flex;
+}
+#x1,#x2,#x3{
+    width: 33%;
+    height: 20px;
+    background-color: rgb(246, 243, 248);
+    margin: 2px;
+    border: 1px solid white;
+    border-radius: 3px;
+    color:blueviolet;
+}
+#y1,#y2,#y3,#y4{
+    width: 25%;
+    height: 5px;
+    background-color: rgb(246, 243, 248);
+    margin: 2px;
+    border: 1px solid white;
+    border-radius: 3px;
+    color:blueviolet;    
+}
+#a1,#a2,#a3,#a4,#a5{
+    width: 20%;
+    height: 5px;
+    background-color: rgb(246, 243, 248);
+    margin: 2px;
+    border: 1px solid white;
+    border-radius: 3px;
+    color:blueviolet;    
+
+}
+.di1{
+    align-items: end;
+}
+#image{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#i1,#i2,#i3,#i4,#i5{
+width: 33%;
+height: 250px;
+border: 1px solid black;
+box-shadow: 5px 5px 5px 5px gray;
+margin: 15px;
+
+
+
+}
+#img1{
+    background-image: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80");
+background-size: cover;
+height:100px ;
+
+
+}
+#img2{
+    background-image: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80");
+background-size: cover;
+height:100px ;
+
+
+}
+#img3{
+    background-image: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80");
+background-size: cover;
+height:100px ;
+
+
+}
+#img4{
+    background-image: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80");
+background-size: cover;
+height:100px ;
+
+
+}
+#img5{
+    background-image: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80");
+background-size: cover;
+height:100px ;
+align-self: start;
+
+}

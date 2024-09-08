@@ -1,0 +1,133 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s ease;
+}
+#container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    width: 500px;
+}
+
+/* Header */
+#head {
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: #e7ab07;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 8px solid black;
+}
+
+/* Tic-Tac-Toe Board */
+#g {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 20px 0;
+}
+.box {
+    height: 120px;
+    width: 120px;
+    background-color: #f4f4f4;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Dark shadow in light mode */
+}
+.box:hover {
+    background-color: #eaeaea;
+    color: #222;
+}
+
+/* Light Shadow in Dark Mode */
+.box.dark {
+    background-color: #555;
+    color: #ccc;
+    border-color: #666;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Light shadow in dark mode */
+}
+.box.dark:hover {
+    background-color: #666;
+    color: #fff;
+}
+
+/* Message Display */
+#msgho {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+/* Buttons */
+#rbtn, #newgame, .theme-btn {
+    margin: 15px 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#rbtn:hover, #newgame:hover, .theme-btn:hover {
+    background-color: #27292b;
+}
+
+/* Theme Toggle Button */
+.theme-btn {
+    font-size: 0.9rem;
+    background-color: #6c757d;
+    margin-top: 10px;
+}
+.theme-btn:hover {
+    background-color: #5a6268;
+}
+
+/* Dark Theme */
+body.dark {
+    background-color: #2c2c2c;
+}
+#container.dark {
+    background-color: #3a3a3a;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+#head.dark {
+    color: #eee;
+    border: 8px solid rgb(255, 253, 253);
+}
+#msgho.dark {
+    color: #ddd;
+}
+#rbtn.dark, #newgame.dark, .theme-btn.dark {
+    background-color: #444;
+    color: #eee;
+}
+#rbtn.dark:hover, #newgame.dark:hover, .theme-btn.dark:hover {
+    background-color: #555;
+}
